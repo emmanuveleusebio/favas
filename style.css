@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+html {
+    scroll-behavior: smooth;
+  }
 body{
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -43,13 +45,17 @@ a, button, i{
     text-decoration: none;
     align-items: center;
 }
+.header ul li a{
+    text-decoration: none;
+    color: #8b7e7e;
+}
 .header ul li{
     display: flex;
     text-decoration: none;
     color: #8b7e7e;
     font-weight: 600;
 }
-.header ul li:hover{
+.header ul li a:hover{
     color: #000000;
 }
 .header .download-cv{
