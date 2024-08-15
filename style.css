@@ -487,6 +487,17 @@ a, button, i{
     .img-container{
         width: 77%;
     }
+    .home-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .description{
+        width: 100%;
+    }
    .home{
     flex-direction: column;
     gap: 50px;
