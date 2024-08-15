@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Eusebio</title>
+    <link rel="icon" href="/img/—Pngtree—streaming binary code matrix vector_5140251.png" type="image/png">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -36,13 +37,30 @@
       <div class="container">
         <div class="header">
           <h1>Emmanuvel Eusebio</h1>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-          </ul>
-          <a href="/cv/Eusebio's CV.pdf" download="Emmanuvel Eusebio's CV " class="download-cv">Download CV</a>
+          <div class="navbar">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Skills</li>
+              <li>Projects</li>
+            </ul>
+            <a href="/cv/Eusebio's CV.pdf" download="Emmanuvel Eusebio's CV " class="download-cv">Download CV</a>
+  
+          </div>
+          <label for="hamburger"><i class="fa-solid fa-bars"></i></label>
+          <input type="checkbox" id="hamburger">
+          <div class="hamburger-menu">
+            
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Skills</li>
+              <li>Projects</li>
+            </ul>
+            <a href="/cv/Eusebio's CV.pdf" download="Emmanuvel Eusebio's CV " class="download-cv">Download CV</a>
+           
+          </div>
+
         </div>
       </div>
 
@@ -80,7 +98,7 @@
           <div class="home-img">
             <div class="img-container">
               <img
-                src="https://nifil-personal-portfolio.vercel.app/img/men1.png"
+                src="/img/men1.png"
                 alt=""
               />
             </div>
@@ -160,7 +178,8 @@
 
       <div class="service-page">
         <div class="container">
-          <p class="heading">-SERVICES</p>
+          <div class="services-provides">
+            <p class="heading">-SERVICES</p>
           <p class="title">SERVICES I PROVIDE</p>
           <p class="description">
             The goal is not to build a website. The goal is to build your
@@ -185,6 +204,7 @@
                 responsive website layouts.
               </p>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -304,12 +324,12 @@
                 click away!
               </p>
               <div class="connect-details">
-                <a href="mailto:eusebioemmanuvel8@gmail.com" class="email">
+                <a href="mailto:eusebioemmanuvel8@gmail.com" class="email footer-mail">
                   <img src="./img/email.png" alt="email me" />
                   eusebioemmanuvel8@gmail.com</a
                 >
 
-                <div class="home-icon">
+                <div class="home-icon footer-icons">
                   <a
                     href="https://www.linkedin.com/in/emmanuvel-eusebio-7357732b0/"
                   >
@@ -328,11 +348,11 @@
             <div class="connect-form">
               <form action="javascript:void(0);">
                 <input type="text" id="name" placeholder="Full Name" />
-                <div class="row">
-                  <div class="col-lg-6">
+                <div class="row ">
+                  <div class="col-lg-6 form-input">
                     <input type="text" id="email" placeholder="Email" />
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-lg-6">
                     <input type="text" id="phone" placeholder="Phone No." />
                   </div>
                 </div>
