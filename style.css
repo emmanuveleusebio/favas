@@ -172,7 +172,7 @@ a, button, i{
     cursor: pointer;
 }
 .img-container img{
-    max-width: 16.5rem;
+    max-width: 16rem;
     transition: transform 0.5s ease;
 }
 .img-container:hover img {
@@ -269,9 +269,13 @@ a, button, i{
     transform: scale(1.05);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-.service-box img{
+.service-box img, .service-box i{
     width: 40px;
     padding-bottom: 30px;
+}
+.service-box i{
+    color: rgb(230, 130, 67);
+    font-size: 25px;
 }
 
 .skill-page{
@@ -483,7 +487,7 @@ a, button, i{
     opacity: 1;
 }
 
-@media only screen and (max-width: 1005px) {
+@media only screen and (max-width: 1215px) {
     .img-container{
         width: 77%;
     }
@@ -550,15 +554,20 @@ a, button, i{
 .footer-icons{
     justify-content: center;
 }
-.form-input{
-    margin-bottom: 20px;
-}
+
 .navbar{
     display: none;
 }
 .header label{
     display: block;
 }
+.form-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .connect-form form{
     width: 100%;
     display: flex;
@@ -566,9 +575,13 @@ a, button, i{
     align-items: center;
     justify-content: center;
 }
+
 }
 
 @media only screen and (max-width: 1005px) {
+    .form-input{
+        margin-bottom: 20px;
+    }
     .img-container{
         width: 96%;
     }
